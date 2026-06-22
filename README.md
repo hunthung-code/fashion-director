@@ -9,13 +9,13 @@
 ## Install
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/fashion-director
+npx skills add symhope/fashion-director
 ```
 
 Or add to your `.claude/settings.json`:
 ```json
 {
-  "plugins": ["YOUR_GITHUB_USERNAME/fashion-director"]
+  "plugins": ["symhope/fashion-director"]
 }
 ```
 
@@ -115,4 +115,4 @@ PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT © 2026 YOUR_GITHUB_USERNAME
+MIT © 2026 symhope
