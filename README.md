@@ -9,13 +9,13 @@
 ## Install
 
 ```bash
-npx skills add symhope/fashion-director
+npx skills add hunthung-code/fashion-director
 ```
 
 Or add to your `.claude/settings.json`:
 ```json
 {
-  "plugins": ["symhope/fashion-director"]
+  "plugins": ["hunthung-code/fashion-director"]
 }
 ```
 
@@ -115,4 +115,4 @@ PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT © 2026 symhope
+MIT © 2026 hunthung-code

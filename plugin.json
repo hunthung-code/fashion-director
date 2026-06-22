@@ -2,9 +2,9 @@
   "name": "fashion-director",
   "version": "0.1.0",
   "description": "AI Fashion Director for Claude Code — creative direction, trend intelligence, style specialization, market strategy, and client deliverable generation. Free methodology layer; bolt on a brand config folder for client-specific intelligence.",
-  "author": "symhope",
+  "author": "hunthung-code",
   "license": "MIT",
-  "homepage": "https://github.com/symhope/fashion-director",
+  "homepage": "https://github.com/hunthung-code/fashion-director",
   "keywords": ["fashion", "creative-director", "trend", "moodboard", "brand", "claude-code", "skill"],
   "skills": [
     { "name": "creative-direction", "path": "skills/creative-direction" },
