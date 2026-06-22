@@ -1,6 +1,6 @@
 {
   "name": "fashion-director",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "AI Fashion Director for Claude Code — creative direction, trend intelligence, style specialization, market strategy, and client deliverable generation. Free methodology layer; bolt on a brand config folder for client-specific intelligence.",
   "author": "hunthung-code",
   "license": "MIT",
@@ -11,7 +11,8 @@
     { "name": "trend-intelligence", "path": "skills/trend-intelligence" },
     { "name": "style-specialist",   "path": "skills/style-specialist" },
     { "name": "market-strategy",    "path": "skills/market-strategy" },
-    { "name": "output-generator",   "path": "skills/output-generator" }
+    { "name": "output-generator",    "path": "skills/output-generator" },
+    { "name": "seasonal-curation",  "path": "skills/seasonal-curation" }
   ],
   "agents": [
     { "name": "tech-wear",    "path": "agents/tech-wear.md" },
