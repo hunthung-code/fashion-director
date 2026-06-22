@@ -23,7 +23,7 @@ Or add to your `.claude/settings.json`:
 
 ## What's included
 
-### 5 Skills
+### 8 Skills
 
 | Skill | Invoke phrase | What it does |
 |---|---|---|
@@ -32,6 +32,9 @@ Or add to your `.claude/settings.json`:
 | `style-specialist` | "男裝方向" / "奢侈品策略" / "style brief" | Routes to appropriate style agent, category context, style brief |
 | `market-strategy` | "市場規模" / "競品分析" / "market sizing" | TAM/SAM/SOM, competitive landscape map, pricing architecture |
 | `output-generator` | "整理成簡報" / "輸出 PDF" / "client deck" | Assembles Gamma decks, PDFs, Canva exports, Notion pages |
+| `seasonal-curation` | "季度趨勢包" / "SS2026 趨勢" / "trend curation" | Brand-filtered seasonal brief, color strategy, styling direction, client-ready deck |
+| `brand-audit` | "品牌健檢" / "brand audit" / "品牌診斷" | 5-dimension health scorecard + priority action plan before a rebrand |
+| `lookbook-generator` | "做 lookbook" / "時尚 editorial" / "lookbook PDF" | Self-contained HTML → A4 PDF editorial lookbook, print-quality |
 
 ### 6 Style Agents
 
@@ -56,6 +59,12 @@ Or add to your `.claude/settings.json`:
 /style-specialist 我的客戶做奢侈品男裝，進入台灣市場，給我定位建議
 
 /market-strategy 台灣 athleisure 市場有多大？主要玩家是誰？
+
+/seasonal-curation 幫我做 FW2026 趨勢包，品牌是 Payshow
+
+/brand-audit 幫我診斷這個品牌哪裡有問題，rebrand 前先做健檢
+
+/lookbook-generator 把這季 4 個造型整理成可以給客戶的 lookbook PDF
 
 /output-generator 把今天的 creative direction 和 trend report 打包成 Gamma deck
 ```
@@ -103,10 +112,10 @@ See `payshow-config/` in this repo for a real-world example (Payshow, a Taiwanes
 
 ## Roadmap
 
-- [ ] `v0.2` — Add `seasonal-curation` skill for structured trend drop workflow
-- [ ] `v0.2` — Add `brand-audit` skill for analyzing existing brand materials
-- [ ] `v0.3` — Add `lookbook-generator` skill (HTML → PDF fashion editorial)
-- [ ] `v0.3` — Integrate with image generation pipeline (banana2 / DALL-E)
+- [x] `v0.2` — `seasonal-curation` skill (brand-filtered seasonal trend drop)
+- [x] `v0.3` — `brand-audit` skill (5-dimension health scorecard + action plan)
+- [x] `v0.4` — `lookbook-generator` skill (HTML → A4 PDF fashion editorial)
+- [ ] `v0.5` — Integrate image generation pipeline (banana2 / DALL-E placeholders → real images)
 - [ ] `v1.0` — Full config schema + validation for client config folders
 
 PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
