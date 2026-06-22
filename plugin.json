@@ -1,0 +1,24 @@
+{
+  "name": "fashion-director",
+  "version": "0.1.0",
+  "description": "AI Fashion Director for Claude Code — creative direction, trend intelligence, style specialization, market strategy, and client deliverable generation. Free methodology layer; bolt on a brand config folder for client-specific intelligence.",
+  "author": "YOUR_GITHUB_USERNAME",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/fashion-director",
+  "keywords": ["fashion", "creative-director", "trend", "moodboard", "brand", "claude-code", "skill"],
+  "skills": [
+    { "name": "creative-direction", "path": "skills/creative-direction" },
+    { "name": "trend-intelligence", "path": "skills/trend-intelligence" },
+    { "name": "style-specialist",   "path": "skills/style-specialist" },
+    { "name": "market-strategy",    "path": "skills/market-strategy" },
+    { "name": "output-generator",   "path": "skills/output-generator" }
+  ],
+  "agents": [
+    { "name": "tech-wear",    "path": "agents/tech-wear.md" },
+    { "name": "menswear",     "path": "agents/menswear.md" },
+    { "name": "womenswear",   "path": "agents/womenswear.md" },
+    { "name": "luxury",       "path": "agents/luxury.md" },
+    { "name": "sportswear",   "path": "agents/sportswear.md" },
+    { "name": "street-hype",  "path": "agents/street-hype.md" }
+  ]
+}
