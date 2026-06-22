@@ -1,0 +1,11 @@
+# Client-specific intelligence layers — never commit these
+*-config/
+*-fashion-config/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
